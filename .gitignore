@@ -1,0 +1,40 @@
+# Arduino build files
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+
+# IDE files
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Compiled libraries
+*.a
+*.o
+
+# Temporary files
+tmp/
+temp/
+
+# Log files
+*.log
+
+# Assets that should be downloaded separately
+assets/audio/*.mp3
+assets/images/*.bmp
+
+# Keep directory structure
+!assets/audio/.gitkeep
+!assets/images/.gitkeep
